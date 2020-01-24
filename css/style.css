@@ -8,7 +8,7 @@ body {
     background-size: cover;
 }
 
-.box {
+.button-group {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,42 +33,42 @@ body {
     margin-bottom: 0;
 }
 
-.button-1 {
+.button-green {
     background-color: #7cc677;
     box-shadow: 0 8px 0 #5cb85c;
 }
 
-.button-1:hover {
+.button-green:hover {
     text-decoration: underline;
     background-color: #5cb85c;
 }
 
-.button-2 {
+.button-red {
     background-color: #d66767;
     box-shadow: 0 8px 0 #bd5a5a;
 }
 
-.button-2:hover {
+.button-red:hover {
     text-decoration: underline;
     background-color: #bd5a5a;
 }
 
-.button-3 {
+.button-blue {
     background-color: #67b3d6;
     box-shadow: 0 8px 0 #5d9ab7;
 }
 
-.button-3:hover {
+.button-blue:hover {
     text-decoration: underline;
     background-color: #5d9ab7;
 }
 
-.button-4 {
+.button-indigo {
     background-color: #6a67d6;
     box-shadow: 0 8px 0 #5a58ac;
 }
 
-.button-4:hover {
+.button-indigo:hover {
     text-decoration: underline;
     background-color: #5a58ac;
 }
