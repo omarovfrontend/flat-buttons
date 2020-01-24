@@ -5,7 +5,8 @@
 }
 
 body {
-    background: #fefefe url('../images/bg-color.jpg');
+    background-image: url('../images/bg-color.jpg');
+    background-color: #fefefe;
     background-size: cover;
 }
 
@@ -24,14 +25,15 @@ body {
     font-weight: 700;
     padding: 30px 100px;
     font-size: 42px;
+    line-height: 42px;
     cursor: pointer;
     margin-bottom: 30px;
     outline: none;
     border: none;
 }
 
-.button:last-child {
-    margin-bottom: 0;
+.button:hover {
+    text-decoration: underline;
 }
 
 .button-green {
@@ -40,7 +42,6 @@ body {
 }
 
 .button-green:hover {
-    text-decoration: underline;
     background-color: #5cb85c;
 }
 
@@ -50,7 +51,6 @@ body {
 }
 
 .button-red:hover {
-    text-decoration: underline;
     background-color: #bd5a5a;
 }
 
@@ -60,7 +60,6 @@ body {
 }
 
 .button-blue:hover {
-    text-decoration: underline;
     background-color: #5d9ab7;
 }
 
@@ -70,8 +69,11 @@ body {
 }
 
 .button-indigo:hover {
-    text-decoration: underline;
     background-color: #5a58ac;
+}
+
+.button:last-child {
+    margin-bottom: 0;
 }
 
 .footer {
