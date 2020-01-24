@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: #fefefe url('../images/bg-color.jpg');
+    background: #fefefe url('../images/bg-color.jpg');
     background-size: cover;
 }
 
